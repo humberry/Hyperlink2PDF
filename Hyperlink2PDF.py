@@ -8,7 +8,7 @@ from reportlab.lib.styles import getSampleStyleSheet
 fields=[{'type':'url', 'key':'url', 'value':'http://', 'title':'URL:'},
     {'type':'text', 'key':'filename', 'value':'urls.pdf', 'title':'Filename:'},
     {'type':'switch', 'key':'format', 'value':True, 'title':'A4 (Letter)'},
-    {'type':'switch', 'key':'imagelink', 'value':True, 'title':'Image Hyperlinks'}
+    {'type':'switch', 'key':'imagelink', 'value':True, 'title':'Image Hyperlinks'},
     {'type':'switch', 'key':'qmlink', 'value':True, 'title':'??? Hyperlinks'}]
 items = dialogs.form_dialog(title='Hyperlink2PDF', fields=fields, sections=None)
 if items:
