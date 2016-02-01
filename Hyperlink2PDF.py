@@ -82,7 +82,7 @@ if items:
 				ext += 1
 				if not extlink:
 					continue
-			else:					#domain
+			else:		#domain
 				dom += 1
 				if not domainlink:
 					continue
